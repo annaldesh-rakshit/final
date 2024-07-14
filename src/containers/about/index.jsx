@@ -6,7 +6,7 @@ import "./styles.scss";
 const personalDetails = [
   {
     label: "Name",
-    value: "Annaldesh Rakshit",
+    value: "Annaldeh Rakshit",
   },
   {
     label: "Age",

@@ -1,4 +1,5 @@
 {
+  "homepage": "https://rakshith-annaldesh.github.io/final/",
   "name": "portfolio-project-2022",
   "version": "0.1.0",
   "private": true,
@@ -6,6 +7,8 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
+    "gh": "^2.8.9",
+    "pages": "^0.0.16",
     "rc-progress": "^3.2.4",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -20,6 +23,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -42,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
